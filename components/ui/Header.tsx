@@ -107,9 +107,10 @@ const styles = StyleSheet.create({
   },
   search: {
     width: "100%",
-    fontSize: Scale.fontPixel(16),
+    fontSize: Scale.fontPixel(14),
     fontFamily: fonts.medium,
     color: Colors.grayText3,
+    textAlignVertical: "bottom",
   },
   filterScanContainer: {
     marginTop: Scale.pixelSizeVertical(30),

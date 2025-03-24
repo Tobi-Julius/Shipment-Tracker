@@ -123,6 +123,8 @@ export function ThemedTextInput({
               type === "filled" ? styles.filled : undefined,
               style,
             ]}
+            autoCapitalize={false}
+            autoComplete={false}
             onChangeText={handleUrlChange}
             onFocus={handleFocus}
             onBlur={handleBlur}
@@ -175,7 +177,8 @@ const styles = StyleSheet.create({
     fontSize: Scale.fontPixel(14),
   },
   input: {
-    fontSize: Scale.fontPixel(16),
+    fontSize: Scale.fontPixel(14),
+    textAlignVertical: "bottom",
     lineHeight: Scale.fontPixel(20),
     fontFamily: fonts.medium,
     paddingVertical: Scale.pixelSizeVertical(8),
