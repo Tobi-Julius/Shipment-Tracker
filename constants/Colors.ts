@@ -1,26 +1,28 @@
-/**
- * Below are the colors that are used in the app. The colors are defined in the light and dark mode.
- * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
- */
-
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
-
-export const Colors = {
-  light: {
-    text: '#11181C',
-    background: '#fff',
-    tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
-  },
-  dark: {
-    text: '#ECEDEE',
-    background: '#151718',
-    tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
-  },
+const Colors = {
+  text: "#11181C",
+  background: "#fff",
+  tint: "#2F50C1",
+  primaryText: "#4561DB",
+  grayText: "#757281",
+  grayText2: "#A7A3B3",
+  grayText3: "#58536E",
+  backgroundFade: "#F4F2F8",
+  backgroundFade50: "#F4F2F850",
+  secondaryButtonColor: "#EAE7F2",
+  white: "#ffffff",
+  icon: "#687076",
+  tabIconDefault: "#687076",
+  tabIconSelected: "#2F50C1",
+  check: "#D0D5DD",
+  completed: "#D9E6FD",
+  holdText: "#DB7E21",
+  holdBG: "#FFF3D5",
+  deliverText: "#208D28",
+  deliverBG: "#E3FAD6",
+  putawayText: "#D12030",
+  putAwayBG: "#FEE3D4",
+  expand: "#6E91EC",
+  whatsApp: "#25D366",
 };
+
+export default Colors;
