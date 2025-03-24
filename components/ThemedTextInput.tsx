@@ -123,8 +123,8 @@ export function ThemedTextInput({
               type === "filled" ? styles.filled : undefined,
               style,
             ]}
-            autoCapitalize={false}
-            autoComplete={false}
+            autoCapitalize={"none"}
+            autoComplete={"url"}
             onChangeText={handleUrlChange}
             onFocus={handleFocus}
             onBlur={handleBlur}
